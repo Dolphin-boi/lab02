@@ -13,14 +13,14 @@ li {
 }
 /*Paragraph background to orange*/
 p {
-    background: orange;
+    background-color: orange;
 }
 /*Make all <h3> have 5px red solid border*/
 h3 {
     border: 5px solid red;
 }
 /*Give everything with <abbr> bold and underlined*/
-abbr * {
+abbr {
     font-weight: bold;
     text-decoration: underline;
 }
@@ -29,14 +29,15 @@ abbr * {
     color: red;
 }
 /*Give <p> in id "zen-benefits" pink background*/
-p.zen-benefit {
-    background: pink;
+#zen-benefits p{
+    background-color: pink;
 }
 /*Make <li> adjacent to <h2> red background*/
-h2 li {
+h2+li {
     background: red;
 }
 /*Give <em> inside <p> red and bold*/
 p em {
     color: red;
+    border-style: bold;
 }
